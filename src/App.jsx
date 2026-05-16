@@ -8,8 +8,8 @@ function App() {
     <div>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        //<Route path="/stockform" element={<Stockform />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/stockform" element={<Stockform />} />
         {/* Add more routes here */}
       </Routes>
     </div>
