@@ -6,6 +6,7 @@ const Home = () => {
       Home Page
       <p>We have added this feature!</p>
       <p>This one is gonna be the test feature</p>
+      <p>This one is gonna be the test feature2</p>
     </div>
   );
 };
