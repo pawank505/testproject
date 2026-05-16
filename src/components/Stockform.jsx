@@ -6,6 +6,7 @@ const Stockform = () => {
       Stock Form Page
       <p>This is new information</p>
       <p>This is new information2</p>
+      <p>This is new information2</p>
     </div>
   );
 };
