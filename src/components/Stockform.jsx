@@ -10,6 +10,11 @@ const Stockform = () => {
         <p>This is new information2</p>
         <p>Added again the information regarding new testing</p>
       </div>
+      <div>
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Open the scale test
+        </button>
+      </div>
     </div>
   );
 };
