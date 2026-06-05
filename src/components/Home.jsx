@@ -7,7 +7,7 @@ const Home = () => {
       <p>We have added this feature!</p>
       <p>This one is gonna be the test feature</p>
       <p>This one is gonna be the test feature2</p>
-      <p>Testing after so many days</p>
+      <p>Testing after so many days2</p>
     </div>
   );
 };
