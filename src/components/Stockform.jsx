@@ -9,7 +9,6 @@ const Stockform = () => {
         <p>This is new information2</p>
         <p>This is new information2</p>
         <p>Added again the information regarding new testing</p>
-        <p>Added again the information regarding new testing2</p>
       </div>
     </div>
   );
