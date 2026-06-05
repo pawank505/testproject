@@ -24,13 +24,6 @@ const Stockform = () => {
               <th className="border border-gray-300 px-4 py-2">Header 3</th>
             </tr>
           </thead>
-          <thead>
-            <tr>
-              <th className="border border-gray-300 px-4 py-2">Header 1</th>
-              <th className="border border-gray-300 px-4 py-2">Header 2</th>
-              <th className="border border-gray-300 px-4 py-2">Header 3</th>
-            </tr>
-          </thead>
         </table>
       </div>
     </div>
