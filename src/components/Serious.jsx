@@ -2,7 +2,13 @@ import React from 'react'
 
 const Serious = () => {
   return (
-    <div>Serious</div>
+    <div>
+        <p>This is serioius component</p>
+        <p>This is new information</p>
+        <div>
+            Its a empty div for testing purpose
+        </div>
+    </div>
   )
 }
 
