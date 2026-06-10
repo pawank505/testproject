@@ -16,7 +16,7 @@ const Stockform = () => {
         </button>
       </div>
       <div>
-        <p>This table is for displaying stock information</p>
+        <p>This table is for displaying stock information 2</p>
         <table className="table-auto border-collapse border border-gray-400">
           <thead>
             <tr>
