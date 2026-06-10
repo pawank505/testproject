@@ -63,13 +63,6 @@ const Serious = () => {
             ))}
           </div>
         </div>
-
-        {/* Testing Section */}
-        <div className="rounded-lg border-2 border-dashed border-gray-300 p-4 text-center text-gray-500">
-          Its an empty div for testing purpose.
-          <br />
-          You can place additional components here.
-        </div>
       </div>
     </div>
   );
