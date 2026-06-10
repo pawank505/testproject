@@ -30,12 +30,6 @@ const Serious = () => {
           <p className="mb-3">Current Count: {count}</p>
 
           <div className="flex gap-3">
-            <button
-              onClick={() => setCount(count + 1)}
-              className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
-            >
-              Increment
-            </button>
 
             <button
               onClick={() => setCount(count - 1)}
