@@ -31,7 +31,6 @@ const Serious = () => {
           <div className="flex gap-3">
 
             <button
-              onClick={() => setCount(count - 1)}
               className="rounded bg-red-500 px-4 py-2 text-white hover:bg-red-600"
             >
               Decrement
