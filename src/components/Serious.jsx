@@ -6,7 +6,6 @@ const Serious = () => {
   const users = [
     { id: 1, name: 'John Doe', role: 'Developer' },
     { id: 2, name: 'Jane Smith', role: 'Designer' },
-    { id: 3, name: 'Alex Johnson', role: 'Tester' },
   ];
 
   return (
