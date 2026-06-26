@@ -30,12 +30,6 @@ const Serious = () => {
           <p className="mb-3">Current Count: {count}</p>
 
           <div className="flex gap-3">
-            <button
-              onClick={() => setCount(count + 1)}
-              className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
-            >
-              Increment
-            </button>
 
             <button
               onClick={() => setCount(count - 1)}
@@ -62,6 +56,13 @@ const Serious = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Testing Section */}
+        <div className="rounded-lg border-2 border-dashed border-gray-300 p-4 text-center text-gray-500">
+          Its an empty div for testing purpose.
+          <br />
+          You can place additional components here.
         </div>
       </div>
     </div>
