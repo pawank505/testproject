@@ -43,16 +43,7 @@ const Serious = () => {
           <h2 className="mb-4 text-xl font-semibold">Team Members</h2>
 
           <div className="grid gap-4 md:grid-cols-3">
-            {users.map((user) => (
-              <div
-                key={user.id}
-                className="rounded-lg border border-gray-200 p-4 shadow-sm transition hover:shadow-md"
-              >
-                <div className="mb-2 h-12 w-12 rounded-full bg-blue-200"></div>
-                <h3 className="font-medium">{user.name}</h3>
-                <p className="text-sm text-gray-500">{user.role}</p>
-              </div>
-            ))}
+        
           </div>
         </div>
       </div>
