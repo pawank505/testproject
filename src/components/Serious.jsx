@@ -6,7 +6,6 @@ const Serious = () => {
   const users = [
     { id: 1, name: 'John Doe', role: 'Developer' },
     { id: 2, name: 'Jane Smith', role: 'Designer' },
-    { id: 3, name: 'Alex Johnson', role: 'Tester' },
   ];
 
   return (
@@ -32,7 +31,6 @@ const Serious = () => {
           <div className="flex gap-3">
 
             <button
-              onClick={() => setCount(count - 1)}
               className="rounded bg-red-500 px-4 py-2 text-white hover:bg-red-600"
             >
               Decrement
@@ -56,13 +54,6 @@ const Serious = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Testing Section */}
-        <div className="rounded-lg border-2 border-dashed border-gray-300 p-4 text-center text-gray-500">
-          Its an empty div for testing purpose.
-          <br />
-          You can place additional components here.
         </div>
       </div>
     </div>
