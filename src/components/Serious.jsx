@@ -43,7 +43,10 @@ const Serious = () => {
           <h2 className="mb-4 text-xl font-semibold">Team Members</h2>
 
           <div className="grid gap-4 md:grid-cols-3">
-        
+              <div className="rounded-lg border border-gray-200 p-4">
+                <h3 className="text-lg font-semibold">John Doe</h3>
+                <p className="text-gray-500">Developer</p>
+              </div>
           </div>
         </div>
       </div>
